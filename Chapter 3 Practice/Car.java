@@ -1,7 +1,8 @@
 
 
 /**
- * a representation of an automobile.
+* 
+* a representation of an automobile.
  * 
  * @author Jerome
  * @version 9-10-15 (Alpha v 1.0)
@@ -9,32 +10,55 @@
 public class Car
 {
     /** specifies the fuel efficiency of the car in units of miles per gallon (mpg) ) */
-    private double fuelIntTank;
-
+    private double fuelInTank;
+    private double fuelEfficiency;
     /**
-     * Default constructor for objects of class Car
+     * constructor for objects of class Car that specify the fuel the efficiency of the car
      */
-    public Car()
+    public Car( double fuelEfficiency )
+    
     {
-        // initialise instance variables
-        x = 0;
+        this.fuelInTank = 0.0;
+        this.fuelEfficiency = fuelEfficiency;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
+     * Simulates driving the car the specified distance in miles and reduces the amount of fuel in the car's tank
+     * 
+     * @pre        the specified distance cannot consume more than the fuel availavle in the tank
      *
-     * @pre        preconditions for the method
-     *            (what the method assumes about the method's parameters and class's state)
-     * @post    postconditions for the method
-     *            (what the method guarantees upon completion)
-     * @param    y    description of parameter y
-     * @return    description of the return value
+     * @param    distance the specified distance to drive in miles
      */
-    public int sampleMethod(int y)
+    public void drive( double distance )
     {
-        // put your code here
-        return x+y;
+        double gas = this.getGasInTank();
+        fuelInTank -= distance / fuelEfficiency;
     }
+
+    
+    /**
+     * Retruns number of gallons
+     *
+     * @pre     preconditions for the method
+     *     
+     * @return  number of gallons of gas in tank
+     */
+    public double getGasInTank()
+    {
+        return fuelInTank;
+    }
+
+    /**
+     * increments the fuel stored in the car's tank by the sapecified amount in gallons
+     *
+     * @pre     gallonsOfGas must  be positive
+     *
+     * @param   gallonsOfGas amount in gallons to increment the fuel in the car's tank
+     */
+    public void addGas(double gallonsOfGas )
+    {
+     fuelInTank += gallonsOfGas;
+    }
+
 
 }
