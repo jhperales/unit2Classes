@@ -21,11 +21,12 @@ public class Door
     public Door(String doorName, String doorState)
     {
         this.doorName = doorName;
-        this.doorState = "closed";
+        this.doorState = doorState;
     }
-    
+    
+
     /**
-     * Accessor method
+     * gets name of door
      *
      * @pre     door must have a name
      * @post    should returun name of door
@@ -36,6 +37,45 @@ public class Door
     public String getName()
     {
         return this.doorName;
+    }
+    
+    /**
+     * gets state of door
+     *
+     * @pre     door must be either open or closed
+     * @post    retruns "closed" or "open", depending on state of door
+     * 
+     * @return  state of door
+     */
+    public String getState()
+    {
+        return this.doorState;
+    }
+    
+    /**
+     * mutates the name of the door
+     *
+     * 
+     * @post    should mutate door name
+     * @param   new name of door
+     * 
+     */
+    public void setName(String newName)
+    {
+        this.doorName = newName;
+    }
+
+    /**
+     *  mutates state of door 
+     *
+     * @pre     state can only be "open" or "close"
+     * @post    mutates state of door
+     * @param   new state of door
+     * 
+     */
+    public void setState(String newState)
+    {
+        this.doorState = newState;
     }
 
     /**
