@@ -20,8 +20,8 @@ public class Door
      */
     public Door(String doorName, String doorState)
     {
-        this.doorName = doorName;
-        this.doorState = doorState;
+        doorName = doorName;
+        doorState = doorState;
     }
     
 
@@ -51,7 +51,8 @@ public class Door
     {
         return this.doorState;
     }
-    
+    
+
     /**
      * mutates the name of the door
      *
