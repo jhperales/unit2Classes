@@ -44,5 +44,27 @@ public class VendingMachineTest
     public void tearDown()
     {
     }
-
+    
+    
+    @Test
+    public void testfillUp()
+    {
+        VendingMachine machine = new VendingMachine();
+        machine.fillUp(10);
+        assertEquals(110, machine.getCanCount(), 1e-6);
+    }
+    
+    @Test
+    public void testgetCanCount()
+    {
+        VendingMachine machine = new VendingMachine();
+        machine.getCanCount();
+        assertEquals(100, machine.getCanCount(), 1e-6);
+    }
+    
+    @Test
+    public void testggetTokenCount()
+    {
+        VendingMachine machine = new VendingMachine();
+    }
 }

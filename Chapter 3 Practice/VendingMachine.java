@@ -47,5 +47,33 @@ public class VendingMachine
         // adds cans
         this.cans += cans;
     }
+    
+    /**
+     * retruns can count
+     *
+     * @pre     can count cannot be negative number
+     * @post    returns int value of cans
+     * 
+     * @return  integer
+     */
+    public int getCanCount()
+    {
+        //returns number of cans
+        return this.cans;
+    }
+
+    /**
+     * returns token count
+     *
+     * @pre     value cannot be negative
+     * @post   returns int value of tokens
+
+     * @return  integer value
+     */
+    public int getTkenCount()
+    {
+        // returns token count
+        return this.tokens;
+    }
 
 }
