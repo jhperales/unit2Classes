@@ -44,12 +44,5 @@ public class DoorTest
     public void tearDown()
     {
     }
-    
-    
-    @Test
-    public void testgetName()
-    {
-        Door door = new Door("name", "closed");
-        assertEquals("name", door.getName());
-    }
+
 }
