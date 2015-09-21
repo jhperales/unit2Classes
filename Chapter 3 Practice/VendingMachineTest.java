@@ -59,12 +59,14 @@ public class VendingMachineTest
     {
         VendingMachine machine = new VendingMachine();
         machine.getCanCount();
-        assertEquals(100, machine.getCanCount(), 1e-6);
+        assertEquals(100, machine.getCanCount() );
     }
     
     @Test
     public void testggetTokenCount()
     {
         VendingMachine machine = new VendingMachine();
+        machine.getTokenCount();
+        assertEquals(0, machine.getTokenCount() );
     }
 }
