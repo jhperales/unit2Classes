@@ -66,7 +66,8 @@ public class VendingMachineTest
     public void testggetTokenCount()
     {
         VendingMachine machine = new VendingMachine();
+        machine.insertToken();
         machine.getTokenCount();
-        assertEquals(0, machine.getTokenCount() );
+        assertEquals(1, machine.getTokenCount() );
     }
 }

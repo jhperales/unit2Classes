@@ -70,7 +70,7 @@ public class VendingMachine
 
      * @return  integer value
      */
-    public int getTkenCount()
+    public int getTokenCount()
     {
         // returns token count
         return this.tokens;
