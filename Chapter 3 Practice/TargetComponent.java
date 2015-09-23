@@ -8,15 +8,13 @@ public class TargetComponent extends JComponent
     {
         Graphics2D g2 = (Graphics2D) g;
         
-        Target target1 = new Target();
+        Target target1 = new Target(50, 50);
         
-        int x = getWidth() - 60;
-        int y = getHeight() - 30;
-        
-        Target target2 = new Target(x ,y);
-        
+        int x = getWidth();
+        int y = getHeight();
+   
         target1.draw(g2);
-        target2.draw(g2);
+        
     }
 }
         
