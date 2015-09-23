@@ -31,9 +31,9 @@ public class Target
          * @param g2 the grahpics content
          */
         
-        Ellipse2D black_circle = new Ellipse2D.Double(xLeft, yTop, diameter, diameter);
-        g2.draw(black_circle);
         
         
     }
+    
+    
 }
