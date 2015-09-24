@@ -30,18 +30,18 @@ public class Target
         g2.setColor(Color.WHITE);
         g2.fill(white1);
         
-        Ellipse2D.Double white2 = new Ellipse2D.Double(xValue + 28, yValue + 28, 125, 125);
+        Ellipse2D.Double white2 = new Ellipse2D.Double(xValue + 27.5, yValue + 27.5, 125, 125);
         g2.draw(white2);
         g2.setColor(Color.RED);
         g2.fill(white2);
         
         
-        Ellipse2D.Double black1 = new Ellipse2D.Double(xValue + 45, yValue + 45, 100, 100);
+        Ellipse2D.Double black1 = new Ellipse2D.Double(xValue + 40, yValue + 40, 100, 100);
         g2.draw(black1);
         g2.setColor(Color.BLACK);
         g2.fill(black1);
         
-        Ellipse2D.Double black2 = new Ellipse2D.Double(xValue + 55, yValue + 55, 75, 75);
+        Ellipse2D.Double black2 = new Ellipse2D.Double(xValue + 52.5, yValue + 52.5, 75, 75);
         g2.draw(black2);
         g2.setColor(Color.BLUE);
         g2.fill(black2);
