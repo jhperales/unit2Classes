@@ -41,7 +41,10 @@ public class Target
         g2.setColor(Color.BLACK);
         g2.fill(black1);
         
-        
+        Ellipse2D.Double black2 = new Ellipse2D.Double(xValue + 55, yValue + 55, 75, 75);
+        g2.draw(black2);
+        g2.setColor(Color.BLUE);
+        g2.fill(black2);
     }
     
     
