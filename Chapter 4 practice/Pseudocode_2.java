@@ -14,5 +14,7 @@ public class Pseudocode_2
         
         double change = recieved - due;
         System.out.printf("The change is: %.2f", change);
+        
+        
     }
 }
