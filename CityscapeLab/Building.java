@@ -12,4 +12,19 @@ public class Building
     /**
      * a building that has can be placed anywhere
      */
-    public 
+    public Building (int x, int y)
+    {
+        xValue = x;
+        yValue = y;
+    }
+    
+    public void draw(Graphics2D g2)
+    {
+        /**
+         * Draws the building
+         */
+        
+       Rectangle text = new Rectangle(xValue, yValue, 50,100);
+    }
+}
+        
