@@ -1,40 +1,35 @@
+import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+import java.awt.Color;
 
-
-/**
- * Write a description of class Sun here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Sun
 {
-    /** description of instance variable x (add comment for each instance variable) */
-    private int x;
-
+    private int xValue;
+    private int yValue;
+    
     /**
-     * Default constructor for objects of class Sun
+     * a sun that can be placed anywhere ((almost))
      */
-    public Sun()
+    public Sun (int x, int y)
     {
-        // initialise instance variables
-        x = 0;
+        /**
+         * default constructor
+         * @param x and y are the coordinates in which sun is places
+         */
+        xValue = x;
+        yValue = y;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
-     *
-     * @pre        preconditions for the method
-     *            (what the method assumes about the method's parameters and class's state)
-     * @post    postconditions for the method
-     *            (what the method guarantees upon completion)
-     * @param    y    description of parameter y
-     * @return    description of the return value
-     */
-    public int sampleMethod(int y)
+    
+    public void draw(Graphics2D g2)
     {
-        // put your code here
-        return x+y;
+        /**
+         * draws the sun ((or suns))
+         */
+        
+        Ellipse2D.Double sun = new Ellipse2D.Double(xValue, yValue, 50, 50);
+        g2.draw(sun);
     }
-
 }

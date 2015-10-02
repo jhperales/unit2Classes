@@ -21,10 +21,17 @@ public class Building
     public void draw(Graphics2D g2)
     {
         /**
-         * Draws the building
+         * Draws the building(s
+         * 0
          */
         
-       Rectangle text = new Rectangle(xValue, yValue, 50,100);
+       Rectangle building1 = new Rectangle(xValue, yValue, 115 ,500);
+       g2.draw(building1);
+       
+       Rectangle building2 = new Rectangle(xValue + 115, yValue - 150, 95, 1000);
+       g2.draw(building2);
+       
+       
     }
 }
         
