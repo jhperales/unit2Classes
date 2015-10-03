@@ -21,7 +21,7 @@ public class Building
     public void draw(Graphics2D g2)
     {
         /**
-         * Draws the building(s
+         * Draws the building(s)
          * 0
          */
         
