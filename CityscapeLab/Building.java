@@ -25,14 +25,12 @@ public class Building
          * 0
          */
         
-       Rectangle building1 = new Rectangle(xValue, yValue, 115 ,500);
+       Rectangle building1 = new Rectangle(xValue, yValue, 150, 800);
        g2.draw(building1);
        
-       Rectangle building2 = new Rectangle(xValue + 115, yValue - 150, 95, 1000);
-       g2.draw(building2);
        
-       Rectangle building3 = new Rectangle(xValue + 210, yValue - 500, 100, 5000);
-       g2.draw(building3);
+       
+       
     }
 }
         

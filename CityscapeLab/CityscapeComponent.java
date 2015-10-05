@@ -38,6 +38,8 @@ public class CityscapeComponent extends JComponent
         
         Sun sun = new Sun(50, 50);
         sun.draw(g2);
+        
+        
     }
     
     /**
