@@ -28,7 +28,8 @@ public class Building
        Rectangle building1 = new Rectangle(xValue, yValue, 150, 800);
        g2.draw(building1);
        
-       
+       Rectangle post_office = new Rectangle(xValue + 100, yValue + 200 , 300, 900);
+       g2.draw(post_office); 
        
        
     }
