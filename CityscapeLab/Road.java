@@ -21,14 +21,16 @@ public class Road
     public void draw(Graphics2D g2)
     {
         /**
-         * Draws theroad
+         * Draws the road and various markings
          */
         
-        Rectangle road = new Rectangle(xValue, yValue + 800, 10000, 100);
+        Rectangle road = new Rectangle(xValue, yValue + 770, 10000, 150);
         g2.draw(road);
        
-       
-       
+        Rectangle curb = new Rectangle(xValue, yValue + 770, 10000, 25);
+        g2.draw(curb);
+        g2.setColor(Color.WHITE);
+        g2.fill(curb);
     }
 }
         
