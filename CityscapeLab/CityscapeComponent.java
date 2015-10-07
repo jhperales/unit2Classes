@@ -39,6 +39,8 @@ public class CityscapeComponent extends JComponent
         Sun sun = new Sun(50, 50);
         sun.draw(g2);
         
+        Road road = new Road(0, 100);
+        road.draw(g2);
         
     }
     
