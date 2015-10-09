@@ -25,7 +25,8 @@ public class Building
          * 0
          */
         
-       Rectangle building1 = new Rectangle(xValue - 30, yValue, 150, 800);
+        //Buildings
+       Rectangle building1 = new Rectangle(xValue - 30, yValue, 143, 800);
        g2.draw(building1);
        
        Rectangle building2 = new Rectangle(xValue + 150, yValue - 100, 200, 850);
@@ -40,9 +41,21 @@ public class Building
        Rectangle building5 = new Rectangle(xValue + 1000 , yValue + 50, 500, 700); 
        g2.draw(building5);
        
-       
        Rectangle building5_top = new Rectangle(xValue + 1070, yValue + 1, 100, 50);
        g2.draw(building5_top);
+       
+       //Windows
+       Rectangle window1 = new Rectangle(xValue - 20, yValue + 5, 50, 50);
+       g2.draw(window1);
+       
+       Rectangle window2 = new Rectangle(xValue + 50, yValue + 5, 50, 50);
+       g2.draw(window2);
+       
+       Rectangle window3 = new Rectangle(xValue - 20, yValue + 65, 50, 50);
+       g2.draw(window3);
+       
+       Rectangle window4 = new Rectangle(xValue + 50, yValue + 65, 50, 50);
+       g2.draw(window4);
     }
 }
         

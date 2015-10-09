@@ -31,6 +31,10 @@ public class Road
         g2.draw(curb);
         g2.setColor(Color.WHITE);
         g2.fill(curb);
+        
+        Rectangle markings = new Rectangle(xValue, yValue + 800, 25, 15);
+        
+        
     }
 }
         
