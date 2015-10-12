@@ -38,9 +38,17 @@ public class Building
        
        Rectangle building3 = new Rectangle(xValue + 350, yValue, 400, 100);
        g2.draw(building3);
+       g2.draw(building2);
+        g2.setColor(Color.black);
+        g2.fill(building3);
+       
        
        Rectangle building4 = new Rectangle(xValue + 750, yValue - 100, 200, 850);
        g2.draw(building4);
+       g2.draw(building2);
+        g2.setColor(Color.black);
+        g2.fill(building4);
+       
        
        Rectangle building5 = new Rectangle(xValue + 1000 , yValue + 50, 500, 700); 
        g2.draw(building5);
@@ -117,7 +125,11 @@ public class Building
        
        
        //windows for building three
+       Rectangle window3_1 = new Rectangle(xValue + 370, yValue + 9, 360, 75);
+       g2.draw(window3_1);
        
+       g2.setColor(Color.red);
+       g2.fill(window3_1);
        
     }
 }

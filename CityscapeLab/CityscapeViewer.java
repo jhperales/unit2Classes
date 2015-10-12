@@ -20,8 +20,9 @@ public class CityscapeViewer
         // create and configure the frame (window) for the program
         JFrame frame = new JFrame();
         
-        frame.setSize(1366 /* x */, 768 /* y */);
+        frame.setSize(1366 /* x */, 755 /* y */);
         frame.setTitle("Cityscape");
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         // use the Scanner class to prompt the user for some configurable aspect of the cityscape
