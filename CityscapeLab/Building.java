@@ -52,9 +52,12 @@ public class Building
        
        Rectangle building5 = new Rectangle(xValue + 1000 , yValue + 50, 500, 700); 
        g2.draw(building5);
-       
+       g2.setColor(Color.gray);
+       g2.fill(building5);
+ 
        Rectangle building5_top = new Rectangle(xValue + 1070, yValue + 1, 100, 50);
        g2.draw(building5_top);
+       g2.fill(building5_top);
        
        //Windows for building 1
        Rectangle window1 = new Rectangle(xValue - 20, yValue + 5, 50, 50);
@@ -117,7 +120,7 @@ public class Building
        Rectangle window2_4 = new Rectangle(xValue +235, yValue + 235, 100, 80);
        g2.draw(window2_4);
        
-       g2.setColor(Color.red);
+       g2.setColor(Color.yellow);
        g2.fill(window2_1);
        g2.fill(window2_2);
        g2.fill(window2_3);
@@ -128,8 +131,41 @@ public class Building
        Rectangle window3_1 = new Rectangle(xValue + 370, yValue + 9, 360, 75);
        g2.draw(window3_1);
        
-       g2.setColor(Color.red);
+       g2.setColor(Color.yellow);
        g2.fill(window3_1);
+       
+       //windows for building 4
+       Rectangle window4_1 = new Rectangle(xValue + 765, yValue - 90, 100, 100);
+       g2.draw(window4_1);
+       
+       Rectangle window4_2 = new Rectangle(xValue + 838, yValue + 20, 100, 100);
+       g2.draw(window4_2);
+       
+       Rectangle window4_3 = new Rectangle(xValue + 765, yValue + 130, 100, 100);
+       g2.draw(window4_3);
+       
+       Rectangle window4_4 = new Rectangle(xValue + 838, yValue + 235, 100, 80);
+       g2.draw(window4_4);
+       
+        g2.setColor(Color.yellow);
+       g2.fill(window4_1);
+       g2.fill(window4_2);
+       g2.fill(window4_3);
+       g2.fill(window4_4);
+       
+       //windows for building five
+       Rectangle window5_1 = new Rectangle(xValue + 1010, yValue + 60, 50, 50);
+       g2.draw(window5_1);
+       
+       Rectangle window5_2 = new Rectangle(xValue + 1080, yValue + 60, 50, 50);
+       g2.draw(window5_2);
+       
+       Rectangle window5_3 = new Rectangle(xValue + 1150, yValue + 60, 50, 50);
+       g2.draw(window5_3);
+       
+       Rectangle window5_4 = new Rectangle(xValue + 1220, yValue + 60, 50, 50);
+       g2.draw(window5_4);
+       
        
     }
 }
