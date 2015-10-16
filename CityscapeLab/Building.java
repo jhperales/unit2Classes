@@ -120,7 +120,7 @@ public class Building
        Rectangle window2_4 = new Rectangle(xValue +235, yValue + 235, 100, 80);
        g2.draw(window2_4);
        
-       g2.setColor(Color.white);
+       g2.setColor(Color.yellow);
        g2.fill(window2_1);
        g2.fill(window2_2);
        g2.fill(window2_3);
@@ -131,7 +131,7 @@ public class Building
        Rectangle window3_1 = new Rectangle(xValue + 370, yValue + 9, 360, 75);
        g2.draw(window3_1);
        
-       g2.setColor(Color.white);
+       g2.setColor(Color.yellow);
        g2.fill(window3_1);
        
        //windows for building 4
@@ -147,7 +147,7 @@ public class Building
        Rectangle window4_4 = new Rectangle(xValue + 838, yValue + 235, 100, 80);
        g2.draw(window4_4);
        
-        g2.setColor(Color.white);
+        g2.setColor(Color.yellow);
        g2.fill(window4_1);
        g2.fill(window4_2);
        g2.fill(window4_3);
@@ -166,96 +166,7 @@ public class Building
        Rectangle window5_4 = new Rectangle(xValue + 1220, yValue + 60, 50, 50);
        g2.draw(window5_4);
        
-       Rectangle window5_5 = new Rectangle(xValue + 1290, yValue + 60, 50, 50);
-       g2.draw(window5_5);
        
-       Rectangle window5_6 = new Rectangle(xValue + 1010, yValue + 120, 50, 50);
-       g2.draw(window5_6);
-
-       
-       Rectangle window5_7 = new Rectangle(xValue + 1080, yValue + 120, 50, 50);
-       g2.draw(window5_7);
-       
-       
-       Rectangle window5_8 = new Rectangle(xValue + 1150, yValue + 120, 50, 50);
-       g2.draw(window5_8);
-       
-       
-       Rectangle window5_9 = new Rectangle(xValue + 1220, yValue + 120, 50, 50);
-       g2.draw(window5_9);
-       
-       Rectangle window5_10 = new Rectangle(xValue + 1290, yValue + 120, 50, 50);
-       g2.draw(window5_10);
-       
-       
-       Rectangle window5_11 = new Rectangle(xValue + 1290, yValue + 180, 50, 50);
-       g2.draw(window5_11);
-       
-       Rectangle window5_12 = new Rectangle(xValue + 1010, yValue + 180, 50, 50);
-       g2.draw(window5_12);
-
-       
-       Rectangle window5_13 = new Rectangle(xValue + 1080, yValue + 180, 50, 50);
-       g2.draw(window5_13);
-       
-       
-       Rectangle window5_14 = new Rectangle(xValue + 1150, yValue + 180, 50, 50);
-       g2.draw(window5_14);
-       
-       
-       Rectangle window5_15 = new Rectangle(xValue + 1220, yValue + 180, 50, 50);
-       g2.draw(window5_15);
-       
-       
-       Rectangle window5_16 = new Rectangle(xValue + 1290, yValue + 180, 50, 50);
-       g2.draw(window5_16);
-       
-       
-       Rectangle window5_17 = new Rectangle(xValue + 1290, yValue + 240, 50, 50);
-       g2.draw(window5_17);
-       
-       Rectangle window5_18 = new Rectangle(xValue + 1010, yValue + 240, 50, 50);
-       g2.draw(window5_18);
-
-       
-       Rectangle window5_19 = new Rectangle(xValue + 1080, yValue + 240, 50, 50);
-       g2.draw(window5_19);
-       
-       
-       Rectangle window5_20 = new Rectangle(xValue + 1150, yValue + 240, 50, 50);
-       g2.draw(window5_20);
-       
-       
-       Rectangle window5_21 = new Rectangle(xValue + 1220, yValue + 240, 50, 50);
-       g2.draw(window5_21);
-       
-       
-       Rectangle window5_22 = new Rectangle(xValue + 1290, yValue + 240, 50, 50);
-       g2.draw(window5_22);
-       
-       g2.setColor(Color.orange);
-       g2.fill(window5_1);
-       g2.fill(window5_2);
-       g2.fill(window5_3);
-       g2.fill(window5_4);
-       g2.fill(window5_5);
-       g2.fill(window5_6);
-       g2.fill(window5_7);
-       g2.fill(window5_8);
-       g2.fill(window5_9);
-       g2.fill(window5_10);
-       g2.fill(window5_11);
-       g2.fill(window5_12);
-       g2.fill(window5_13);
-       g2.fill(window5_14);
-       g2.fill(window5_15);
-       g2.fill(window5_16);
-       g2.fill(window5_17);
-       g2.fill(window5_18);
-       g2.fill(window5_19);
-       g2.fill(window5_20);
-       g2.fill(window5_21);
-       g2.fill(window5_22);
     }
 }
         
