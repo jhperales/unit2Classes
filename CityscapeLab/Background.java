@@ -12,10 +12,11 @@ public class Background
     /**
      * a building that has can be placed anywhere
      */
-    public Background (int x, int y)
+    public Background (int x, int y, String time_of_day)
     {
         xValue = x;
         yValue = y;
+        time = time_of_day;
     }
     
     public void draw(Graphics2D g2)
@@ -25,9 +26,20 @@ public class Background
          */
         
         Rectangle background = new Rectangle(xValue, yValue, 1000000, 10000000);
-        g2.setColor(Color.cyan);
-        g2.fill(background);
+        
+        if (time == "day")
+        {
+            
+            g2.setColor(Color.cyan);
+            g2.fill(background);
        
+        }
+        
+        if (time == "night")
+        {
+            g2.setColor(Color.black);
+            g2.fill(background);
+        }
     }
 }
         
