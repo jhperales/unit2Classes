@@ -31,5 +31,21 @@ public class Sun
         
         Ellipse2D.Double sun = new Ellipse2D.Double(xValue, yValue, 50, 50);
         g2.draw(sun);
+        g2.setColor(Color.yellow);
+        g2.fill(sun);
+    }
+    
+    /**
+     * updates position of the sun ((moving the sun))
+     *
+     * @pre     Sun musst be drawn
+     *          
+     * @post   sun will move
+     * 
+     */
+    public void move()
+    {
+        // put your code here
+        int x = 0;
     }
 }

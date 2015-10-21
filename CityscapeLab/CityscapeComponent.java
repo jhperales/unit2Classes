@@ -14,13 +14,16 @@ public class CityscapeComponent extends JComponent
     // define the objects in your Cityscape as instance variables
     // ...
     
-    
-    
+    private Background background = new Background(0, 0);
+    private Building building = new Building(50, 250);
+    private Sun sun = new Sun(50, 50);
+    private Road road = new Road(0, 100);
+     
     
     // define the CityscapeComponent contructor and intiailize all instance variables
     // ...
     
-    
+   
     /**
      * This method is invoked by the Java Run-Time whenever the component needs to be redrawn.
      * It does not need to be invoked explicitly.
@@ -32,18 +35,9 @@ public class CityscapeComponent extends JComponent
         
         // invoke the draw method on each object in your Cityscape
         // ...
-        
-        Background background = new Background(0, 0);
         background.draw(g2);
-        
-        
-        Building building1 = new Building(50, 250);
-        building1.draw(g2);
-        
-        Sun sun = new Sun(50, 50);
+        building.draw(g2);
         sun.draw(g2);
-        
-        Road road = new Road(0, 100);
         road.draw(g2);
         
         
