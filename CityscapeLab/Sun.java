@@ -43,9 +43,12 @@ public class Sun
      * @post   sun will move
      * 
      */
-    public void move()
+    public void move(Graphics2D g2)
     {
         // put your code here
-        int x = 0;
+       Ellipse2D.Double sun = new Ellipse2D.Double(xValue + 50, yValue, 50, 50);
+       g2.draw(sun);
+       g2.setColor(Color.yellow);
+       g2.fill(sun);
     }
 }

@@ -26,6 +26,9 @@ public class Background
          */
         
         Rectangle background = new Rectangle(xValue, yValue, 1000000, 10000000);
+        g2.draw(background);
+        g2.setColor(Color.cyan);
+        g2.fill(background);
         
         
     }
