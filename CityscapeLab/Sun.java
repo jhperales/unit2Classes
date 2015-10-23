@@ -43,7 +43,7 @@ public class Sun
      * @post   sun will move
      * 
      */
-    public void move(Graphics2D g2)
+    public void move()
     {
         // put your code here
        Ellipse2D.Double sun = new Ellipse2D.Double(xValue + 50, yValue, 50, 50);
