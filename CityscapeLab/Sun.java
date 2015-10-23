@@ -46,9 +46,6 @@ public class Sun
     public void move()
     {
         // put your code here
-       Ellipse2D.Double sun = new Ellipse2D.Double(xValue + 50, yValue, 50, 50);
-       g2.draw(sun);
-       g2.setColor(Color.yellow);
-       g2.fill(sun);
+       xValue += 50;
     }
 }
