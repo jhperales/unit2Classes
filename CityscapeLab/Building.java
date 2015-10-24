@@ -33,7 +33,7 @@ public class Building
        
        Rectangle building2 = new Rectangle(xValue + 150, yValue - 100, 200, 850);
         g2.draw(building2);
-        g2.setColor(Color.black);
+        g2.setColor(Color.blue);
         g2.fill(building2);
        
        Rectangle building3 = new Rectangle(xValue + 350, yValue, 400, 100);
